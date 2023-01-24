@@ -7,7 +7,8 @@
                 @foreach ($train as $trainElement)
                     <div class="col-3">
                         <div class="card bg-dark text-light">
-                            <img src="https://picsum.photos/200/300" class="card-img-top" alt="...">
+                            <img src="https://i.picsum.photos/id/155/3264/2176.jpg?hmac=Zgf_oGMJeg18XoKBFmJgp2DgHMRYuorXlDx5wLII9nU" 
+                            class="card-img-top" alt="...">
                             <div class="card-body p-0 py-3">
                                 <h3 class="card-title">Azienda: {{ $trainElement->azienda }}</h3>
                                 <h5>Stazione di partenza: {{ $trainElement->stazione_partenza }}</h5>
