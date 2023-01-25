@@ -20,3 +20,4 @@ class PageController extends Controller {
     }
 
 }
+
